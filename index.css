@@ -1,0 +1,26 @@
+.topc{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 127, 227);
+}
+
+.topc a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.topc a:hover{
+    background-color:pink;
+    color: black;
+}
+
+.topc a:active{
+    background-color:red;
+    color: white;
+}
