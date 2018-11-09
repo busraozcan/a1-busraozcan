@@ -35,3 +35,23 @@ body{
     background-image: url("sea.jpg");
     background-size: 100%;
 }
+.pictshema{
+    width: 600px;
+    margin: auto;
+}
+.leftshft{
+    float: left;  
+    height: 300px;
+    width: 300px;
+    padding: 0 10px 10px 0;
+}
+.paragraf1{
+    background-color:purple;
+    color: white;
+    height: 250px;
+    padding: 50px 0 0 0;
+   
+}
+#headbckgrnd{
+    background-color: azure
+}
