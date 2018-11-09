@@ -45,6 +45,12 @@ body{
     width: 300px;
     padding: 0 10px 10px 0;
 }
+.leftshft2{
+    float: left;  
+    height: 500px;
+    width: 500px;
+    padding: 0 10px 10px 0;
+}
 .paragraf1{
     background-color:purple;
     color: white;
@@ -53,5 +59,15 @@ body{
    
 }
 #headbckgrnd{
-    background-color: azure
+    background-color: azure;
+}
+.racelist{
+    background-color: aliceblue;
+    width: 600px;
+    height: 300px;
+    float: left; 
+    padding: 0 0 0 40px;
+}
+#awardpic{
+    width: 50%;
 }
