@@ -123,6 +123,15 @@ body{
     height: 300px;
     float: left; 
     padding: 0 0 0 40px;
+    
+}
+.contactlist{
+    background-color: aliceblue;
+    width: 600px;
+    height: 300px;
+    float: left; 
+    padding: 0 0 0 40px;
+    
 }
 #awardpic{
     width: 50%;
