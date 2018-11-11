@@ -2,11 +2,12 @@
 <html>
     <head>
         <title>RACES</title>
-        <meta charset="utf-8"/>
+        <meta charset="UTF-8"/>
+        <link rel="shortcut icon" href="logo1.svg.png" />
         <link rel="stylesheet" href="index.css"/>
 
     </head>
-    <body >
+    <body>
             <div class="topc">
                         <a href="index.html">HOME</a>
                         <a href="boat.html">BOATS</a>
@@ -15,10 +16,28 @@
                         <a href="awards.html">AWARDS</a>
                         <a href="contact.html">CONTACT US</a>
                 </div>
-                <img src="420GIMP.jpeg" alt="Image of 420GIMP" class="GIMP" >
-                <img src="420.jpg" alt="Image of 420" class="GIMP" >
-                <img src="hannah and sakiagımp.jpg" alt="Image of hannah and sakiagımp" class="GIMP" >
-                <img src="hannah and sakia2.jpg" alt="Image of hannah and sakia2" class="GIMP" >
+                <div style="text-align:center"> 
+                    <video id="video" width="600" height="400">
+                      <source src="video.mp4" type="video/mp4">
+                    </video>
+                    <br>
+                    <button onclick="playPause()">Play/Pause</button> 
+                  </div> 
+                  
+                  <script> 
+                  var myVideo = document.getElementById("video"); 
+                  
+                  function playPause() { 
+                      if (myVideo.paused) 
+                          myVideo.play(); 
+                      else 
+                          myVideo.pause(); 
+                  } 
+                </script> 
+                <img src="420GIMP.jpeg" alt="Image of 420GIMP" class="gimp" >
+                <img src="420.jpg" alt="Image of 420" class="gimp" >
+                <img src="hannah and sakiagımp.jpg" alt="Image of hannah and sakiagımp" class="gimp" >
+                <img src="hannah and sakia2.jpg" alt="Image of hannah and sakia2" class="gimp" >
                 
     </body>
 </html>
