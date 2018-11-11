@@ -16,7 +16,8 @@
 }
 .homemiddle{
     box-sizing: border-box;
-    color: blue;
+    color: purple;
+    background: rgba(76, 175, 162, 0.3);
     font-family: "Inconsolata", sans-serif;
     font-size: 90px;
     line-height: 135px;
@@ -62,7 +63,7 @@ body{
     background-size: 100%;
 }
 .homebody{
-    background-image: url("home.jpg");
+    background-image: url("420.jpg");
     background-size: 100%;
 }
 .contactbody{
@@ -177,5 +178,12 @@ body{
     padding: 0 0 0 40px;  
     position: absolute;
     top: 600px;
-    left: 75px;
+    left: 50px;
+}
+.logo1{
+    float: left; 
+    padding: 0 0 0 40px;  
+    position: absolute;
+    top: 60px;
+    right: 75px;
 }
